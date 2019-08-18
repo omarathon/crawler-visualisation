@@ -38,6 +38,8 @@ The gold per minute varies between game time deltas: 0-10 mins, 10-20 mins, ... 
 
 The HTML and Javascript webpage for this visualisation may be found in [live-visualisation](live-visualisation).
 
+---
+
 ## Live Preview
 
 One may find a live preview at:
