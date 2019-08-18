@@ -2,7 +2,7 @@
 
 ## Overview
 
-A realtime data visualisation utilising Plotly.js, streaming from a live [Google Firebase](https://firebase.google.com/), which is populated by asynchronous instances of [riot-api-crawler](https://github.com/omarathon/riot-api-crawler) Crawlers.
+A realtime data visualisation utilising [plotly.js](https://plot.ly/javascript/), streaming from a live [Google Firebase](https://firebase.google.com/), which is populated by asynchronous instances of [riot-api-crawler](https://github.com/omarathon/riot-api-crawler) Crawlers.
 
 ![Graph](https://i.gyazo.com/0308e750ae707eeeb5844e55d8db58d0.gif)
 
@@ -22,7 +22,7 @@ The following dependencies were used:
 
 ## Web Visualisation
 
-Uses Plotly.js to plot a realtime graph streaming from the Google Firebase being populated by the crawler.
+Uses plotly.js to plot a realtime graph streaming from the Google Firebase being populated by the crawler.
 
 On the x axis we have a discrete set of tiers: IRON, BRONZE, SILVER, ..., CHALLENGER.
 
