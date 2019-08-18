@@ -16,6 +16,10 @@ We run asynchronously 7 crawlers which crawl each tier (BRONZE, SILVER, GOLD, ..
 
 The Java files for this script may be found in [java](java). The main script is [java/Main.java](java/Main.java).
 
+The following dependencies were used:
+- [Orianna](https://github.com/meraki-analytics/orianna)
+- [riot-api-crawler](https://github.com/omarathon/riot-api-crawler)
+
 ## Web Visualisation
 
 Uses Plotly.js to plot a realtime graph streaming from the Google Firebase being populated by the crawler.
