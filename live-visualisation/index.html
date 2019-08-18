@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Crawler Visualisation</title>
+  <meta name="Visualisation" content="Crawler Visualisation">
+  <meta name="Omar Tanner" content="omarathon">
+
+  <!-- BEGINNING OF FIREBASE SETUP -->
+    <!-- Firebase JS SDK -->
+    <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-app.js"></script>
+    <script>
+    // Firebase configuration (ENTER YOUR CONFIGURATION HERE)
+    var firebaseConfig = {
+      apiKey: "AIzaSyD90zRzvW7rh7ht9UVb8iBaXB8bs_MN9B8",
+      authDomain: "json-project-61f5e.firebaseapp.com",
+      databaseURL: "https://json-project-61f5e.firebaseio.com",
+      projectId: "json-project-61f5e",
+      storageBucket: "",
+      messagingSenderId: "873634638765",
+      appId: "1:873634638765:web:0b392be880f60439"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+    <!-- Additional Firebase files -->
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+  <!-- END OF FIREBASE SETUP -->
+
+  <!-- plotly.js -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+</head>
+
+<body>
+    <!-- plot button -->
+    <button id="plotButton">Plot</button>
+    &nbsp;
+
+    <!-- auto update checkbox -->
+    <input type="checkbox" id="autoupdateCheckbox" name="autoupdateCheckbox"> </input>
+    <label for="autoupdateCheckbox">Auto Update Graph</label>
+    
+    <!-- the graph -->
+    <div id="graph" style="width:1200px;height:1200px;"></div>
+
+    <!-- reset database button -->
+    <button id="resetDbButton">Reset Database</button>
+    &nbsp;
+
+    <!-- number of loaded matches -->
+    <label>Loaded Matches: </label>
+    <label id="loadedMatches" name="loadedMatches">0</label>
+  <script src="js/script.js"></script>
+  
+</body>
+</html>
