@@ -28,7 +28,7 @@ The following dependencies were used:
 
 Uses plotly.js to plot a realtime graph streaming from the Google Firebase being populated by the crawler.
 
-On the x axis we have a discrete set of tiers: IRON, BRONZE, SILVER, ..., CHALLENGER.
+On the x axis we have a discrete set of tiers: {IRON, BRONZE, SILVER, GOLD, PLATINUM, DIAMOND, MASTER, GRANDMASTER, CHALLENGER}.
 
 On the y axis we have the average gold per minute across all of the players for Matches in each tier. 
 
