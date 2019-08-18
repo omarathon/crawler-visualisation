@@ -4,6 +4,8 @@
 
 A realtime data visualisation utilising Plotly.js, streaming from a live [Google Firebase](https://firebase.google.com/), which is populated by asynchronous instances of [riot-api-crawler](https://github.com/omarathon/riot-api-crawler) Crawlers.
 
+![Graph](https://i.imgur.com/mn2jfjp.png)
+
 ## Crawler (Data Collection)
 
 Uses riot-api-crawler to obtain a live dataset of Match data for each elo (tier), which uploads its results to a Google Firebase, where each uploaded Match has its tier attached to it.
