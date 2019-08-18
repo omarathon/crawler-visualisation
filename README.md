@@ -4,7 +4,11 @@
 
 A realtime data visualisation utilising [plotly.js](https://plot.ly/javascript/), streaming from a live [Google Firebase](https://firebase.google.com/), which is populated by asynchronous instances of [riot-api-crawler](https://github.com/omarathon/riot-api-crawler) Crawlers.
 
+---
+
 ![Graph](https://i.gyazo.com/0308e750ae707eeeb5844e55d8db58d0.gif)
+
+---
 
 ## Crawler (Data Collection)
 
