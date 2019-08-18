@@ -205,8 +205,8 @@ document.getElementById('resetDbButton').onclick = function() {
     plot();
 };
 
-// sleep for 1.5 seconds, then plot and check the auto updating checkbox
-new Promise((resolve) => setTimeout(resolve, 1500)).then(() => {
+// sleep for 3 seconds, then plot and check the auto updating checkbox
+new Promise((resolve) => setTimeout(resolve, 3000)).then(() => {
     // plot the empty graph to start
     plot();
     document.getElementById("autoupdateCheckbox").checked = true;
