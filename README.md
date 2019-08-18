@@ -42,7 +42,7 @@ The HTML and Javascript webpage for this visualisation may be found in [live-vis
 
 ## Live Preview
 
-One may find a live preview at:
+One may find a **live preview** at:
 
 [https://www.dcs.warwick.ac.uk/~u1830744/projects/crawler-visualisation/index.html](https://www.dcs.warwick.ac.uk/~u1830744/projects/crawler-visualisation/index.html)
 
