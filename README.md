@@ -6,7 +6,7 @@ A realtime data visualisation utilising [plotly.js](https://plot.ly/javascript/)
 
 ---
 
-![Graph](https://i.gyazo.com/0308e750ae707eeeb5844e55d8db58d0.gif)
+[![Graph](https://i.gyazo.com/0308e750ae707eeeb5844e55d8db58d0.gif)](https://www.dcs.warwick.ac.uk/~u1830744/projects/crawler-visualisation/index.html)
 
 ---
 
