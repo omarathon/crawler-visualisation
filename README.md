@@ -17,6 +17,7 @@ We run asynchronously 7 crawlers which crawl each tier (BRONZE, SILVER, GOLD, ..
 Uses Plotly.js to plot a realtime graph streaming from the Google Firebase being populated by the crawler.
 
 On the x axis we have a discrete set of tiers: IRON, BRONZE, SILVER, ..., CHALLENGER.
+
 On the y axis we have the average gold per minute across all of the players for Matches in each tier. 
 
 The gold per minute varies between game time deltas: 0-10 mins, 10-20 mins, ... so we plot different coloured lines for each game time delta.
