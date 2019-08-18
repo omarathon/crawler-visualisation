@@ -14,7 +14,7 @@ We run asynchronously 7 crawlers which crawl each tier (BRONZE, SILVER, GOLD, ..
 
 ### Files
 
-Main script: [java/Main.java](java/Main.java)
+The Java files for this script may be found in [java](java). The main script is [java/Main.java](java/Main.java).
 
 ## Web Visualisation
 
@@ -28,7 +28,7 @@ The gold per minute varies between game time deltas: 0-10 mins, 10-20 mins, ... 
 
 ### Files
 
-The HTML and Javascript webpage for this visualisation may be found in [web-visualisation](web-visualisation)
+The HTML and Javascript webpage for this visualisation may be found in [live-visualisation](live-visualisation).
 
 ## Live Preview
 
