@@ -2,7 +2,7 @@
 
 ## Overview
 
-A realtime visualisation of a live Google Firebase, populated by asynchronous instances of riot-api-crawler Crawlers.
+A realtime visualisation of a live (Google Firebase)[https://firebase.google.com/], populated by asynchronous instances of riot-api-crawler Crawlers.
 
 ### Crawler (Data Collection)
 
