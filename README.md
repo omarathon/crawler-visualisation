@@ -46,6 +46,6 @@ One may find a **live preview** at:
 
 [https://www.dcs.warwick.ac.uk/~u1830744/projects/crawler-visualisation/index.html](https://www.dcs.warwick.ac.uk/~u1830744/projects/crawler-visualisation/index.html)
 
-(please wait 3 seconds for the data to be downloaded from the Firebase and processed)
+(please wait 3 seconds for the data to be downloaded and processed)
 
 
