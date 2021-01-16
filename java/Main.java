@@ -56,7 +56,7 @@ public class Main {
         CrawlerListener listener = new HaltingListener();
 
         // construct OutputHandler which will format the Match with its elo attached to it, and upload it to a Google Firebase
-        FirebaseConnection connection = new FirebaseConnection("https://json-project-61f5e.firebaseio.com/");
+        FirebaseConnection connection = new FirebaseConnection("https://riot-api-crawler-example-default-rtdb.europe-west1.firebasedatabase.app");
         FirebaseDataGenerator generator = new FirebaseDataGenerator(connection, "crawler");
         StringMatchFormatter stringMatchFormatter = new StringMatchFormatter(new EloMatchFormatter(matchEloEstimator));
         PostFirebaseOutputHandler outputHandler = new PostFirebaseOutputHandler(new FirebaseDataMatchFormatter(stringMatchFormatter, generator));
@@ -93,7 +93,7 @@ public class Main {
         Orianna.setDefaultPlatform(Platform.EUROPE_WEST);
 
         // Set API Key for Crawler
-        Orianna.setRiotAPIKey("RGAPI-614899a8-a0e2-4461-812c-92e1b4795cb5");
+        Orianna.setRiotAPIKey("RGAPI-a52d7c3f-e248-4e32-867d-79fcb94a54e6");
     }
 
     // Returns a set of Ranks that span the lowest division to the highest division for a given Tier
@@ -122,14 +122,14 @@ public class Main {
     private static Map<Tier, Summoner> getTierSummonerMap() {
         HashMap<Tier, Summoner> tierSummonerMap = new HashMap<Tier, Summoner>();
         // now add each Summoner for each Tier
-        tierSummonerMap.put(Tier.BRONZE, Summoner.named("blauzing").get());
-        tierSummonerMap.put(Tier.SILVER, Summoner.named("Sahra1056").get());
-        tierSummonerMap.put(Tier.GOLD, Summoner.named("EmoKevin").get());
-        tierSummonerMap.put(Tier.PLATINUM, Summoner.named("ZeanyyyX").get());
-        tierSummonerMap.put(Tier.DIAMOND, Summoner.named("thereaIknossi").get());
-        tierSummonerMap.put(Tier.MASTER, Summoner.named("nothing left").get());
-        tierSummonerMap.put(Tier.GRANDMASTER, Summoner.named("Potato4u").get());
-        tierSummonerMap.put(Tier.CHALLENGER, Summoner.named("TheShackledOne").get());
+        tierSummonerMap.put(Tier.BRONZE, Summoner.named("Dabby3").get());
+        tierSummonerMap.put(Tier.SILVER, Summoner.named("KillerCookie75").get());
+        tierSummonerMap.put(Tier.GOLD, Summoner.named("VΛPO").get());
+        tierSummonerMap.put(Tier.PLATINUM, Summoner.named("Ghutter Life").get());
+        tierSummonerMap.put(Tier.DIAMOND, Summoner.named("smol marie").get());
+        tierSummonerMap.put(Tier.MASTER, Summoner.named("MastoPapi").get());
+        tierSummonerMap.put(Tier.GRANDMASTER, Summoner.named("Floomer").get());
+        tierSummonerMap.put(Tier.CHALLENGER, Summoner.named("Agurin").get());
 
         return tierSummonerMap;
     }
